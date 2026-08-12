@@ -172,7 +172,7 @@ void update_pwm(VVVF_Table mode[], int size)
 
     if (sin_freq > 0.001f)
     {
-        MR = 0.003f; // sin_freq * 0.001f;
+        MR = 0.002f; // sin_freq * 0.001f;
     }
     else
     {
