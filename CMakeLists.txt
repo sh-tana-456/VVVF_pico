@@ -35,7 +35,8 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(vvvf-pico main.c )
+# add_executable(vvvf-pico main.c )
+add_executable(vvvf-pico vvvf-pico.c )
 
 pico_set_program_name(vvvf-pico "vvvf-pico")
 pico_set_program_version(vvvf-pico "0.1")
