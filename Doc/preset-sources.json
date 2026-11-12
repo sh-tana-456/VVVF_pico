@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-12",
+  "jr-fall": {
+    "repository": "VvvfGeeks/YAML-Files",
+    "commit": "2f83dc2cd0466b35ce9720d5101164656064f70c",
+    "file": "VVVF/JRE_E231_HITACHI.yaml",
+    "url": "https://github.com/VvvfGeeks/YAML-Files/blob/2f83dc2cd0466b35ce9720d5101164656064f70c/VVVF/JRE_E231_HITACHI.yaml",
+    "sha256": "2426acdda0c1c9bc1b19467661d1b04f7b1a11afff4e37c702fc926084b1a44a",
+    "AcceleratePattern": [
+      {
+        "from_hz": 0,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Const",
+        "carrier_const": 1045,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 65,
+          "EndAmplitude": 1.37471264
+        }
+      },
+      {
+        "from_hz": 23,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Moving",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": 23,
+          "StartValue": 1045,
+          "End": 48.9,
+          "EndValue": 710
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 65,
+          "EndAmplitude": 1.37471264
+        }
+      },
+      {
+        "from_hz": 49,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Moving",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": 49,
+          "StartValue": 710,
+          "End": 60,
+          "EndValue": 1750
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 65,
+          "EndAmplitude": 1.37471264
+        }
+      },
+      {
+        "from_hz": 60,
+        "pulse_type": "SYNC",
+        "pulses": 3,
+        "alternative": "Alt1",
+        "carrier_mode": "Const",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 60,
+          "StartAmplitude": 0.7,
+          "EndFrequency": 68,
+          "EndAmplitude": 1
+        }
+      },
+      {
+        "from_hz": 67,
+        "pulse_type": "SYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Const",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 65,
+          "EndAmplitude": 1
+        }
+      }
+    ],
+    "BrakingPattern": [
+      {
+        "from_hz": 0,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Const",
+        "carrier_const": 1045,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 73,
+          "EndAmplitude": 1.4
+        }
+      },
+      {
+        "from_hz": 29,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Moving",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": 29,
+          "StartValue": 1045,
+          "End": 55.9,
+          "EndValue": 700
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 73,
+          "EndAmplitude": 1.4
+        }
+      },
+      {
+        "from_hz": 56,
+        "pulse_type": "ASYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Moving",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": 56,
+          "StartValue": 700,
+          "End": 67,
+          "EndValue": 1600
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 73,
+          "EndAmplitude": 1.4
+        }
+      },
+      {
+        "from_hz": 67,
+        "pulse_type": "SYNC",
+        "pulses": 3,
+        "alternative": "Alt1",
+        "carrier_mode": "Const",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 67,
+          "StartAmplitude": 0.7,
+          "EndFrequency": 75,
+          "EndAmplitude": 0.85
+        }
+      },
+      {
+        "from_hz": 73,
+        "pulse_type": "SYNC",
+        "pulses": 1,
+        "alternative": "Default",
+        "carrier_mode": "Const",
+        "carrier_const": -1,
+        "carrier_linear": {
+          "Start": -1,
+          "StartValue": -1,
+          "End": -1,
+          "EndValue": -1
+        },
+        "amplitude": {
+          "StartFrequency": 0,
+          "StartAmplitude": 0,
+          "EndFrequency": 73,
+          "EndAmplitude": 1
+        }
+      }
+    ],
+    "git_blob_sha": "cc1b88089f57e79460c12b07816d2c2b3cd8cdc6",
+    "formula_reference_commit": "fb8d0c99e0ccc3708fa3429f71bc9270db460193"
+  },
+  "pmsm-toshiba": {
+    "repository": "naoto64/VVVF-Simulator",
+    "commit": "9335c10a135e383e60dc4a1d1ba22063eee40325",
+    "preset": "ユーザー: 東芝PMSM",
+    "frequency_hz": 79.79401993355482,
+    "speed_kmh": 80.12956810631229,
+    "power": [
+      {
+        "vmax": 3,
+        "kind": "ASYNC",
+        "value": 750,
+        "name": "起動 非同期",
+        "hf_mode": "CARRIER",
+        "hf_amount": 25,
+        "hf_freq": 187.5,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": 3.5
+      },
+      {
+        "vmax": 35,
+        "kind": "ASYNC",
+        "value": 750,
+        "name": "起動 非同期",
+        "hf_mode": "OFF",
+        "hf_amount": 25,
+        "hf_freq": 187.5,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": 3.5
+      },
+      {
+        "vmax": 60,
+        "kind": "SYNC",
+        "value": 9,
+        "name": "同期9",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      },
+      {
+        "vmax": 80,
+        "kind": "WIDE3",
+        "value": 3,
+        "name": "広域3パルス",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      },
+      {
+        "vmax": 999,
+        "kind": "ONEPULSE",
+        "value": 1,
+        "name": "1パルス",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      }
+    ],
+    "brake": [
+      {
+        "vmax": 3,
+        "kind": "ASYNC",
+        "value": 750,
+        "name": "起動 非同期",
+        "hf_mode": "CARRIER",
+        "hf_amount": 25,
+        "hf_freq": 187.5,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": 3.5
+      },
+      {
+        "vmax": 35,
+        "kind": "ASYNC",
+        "value": 750,
+        "name": "起動 非同期",
+        "hf_mode": "OFF",
+        "hf_amount": 25,
+        "hf_freq": 187.5,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": 3.5
+      },
+      {
+        "vmax": 60,
+        "kind": "SYNC",
+        "value": 9,
+        "name": "同期9",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      },
+      {
+        "vmax": 80,
+        "kind": "WIDE3",
+        "value": 3,
+        "name": "広域3パルス",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      },
+      {
+        "vmax": 999,
+        "kind": "ONEPULSE",
+        "value": 1,
+        "name": "1パルス",
+        "hf_mode": "OFF",
+        "hf_amount": 0,
+        "hf_freq": null,
+        "spread_mode": "OFF",
+        "spread_amount": 0,
+        "spread_rate": null
+      }
+    ],
+    "url": "https://github.com/naoto64/VVVF-Simulator/blob/9335c10a135e383e60dc4a1d1ba22063eee40325/vvvf_pwm_pattern_presets.json",
+    "hz_per_kmh": 0.9958124300344128,
+    "omitted": [
+      "Low speed <3 km/h HFI: 187.5 Hz square injection, amount 25 percent",
+      "Python simulator motor/acoustic output processing and transition smoothing",
+      "The source uses a special SYNC9 waveform; this port uses standard sine-triangle SYNC9."
+    ]
+  }
+}

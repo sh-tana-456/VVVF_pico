@@ -1,0 +1,9 @@
+.program three_phase
+; Word = ((duration_in_sysclk_ticks - 3) << 3) | W_V_U.
+; OUT, OUT and (X+1) JMPs give exactly X+3 cycles between pin updates.
+.wrap_target
+    out pins, 3
+    out x, 29
+hold:
+    jmp x-- hold
+.wrap

@@ -1,0 +1,52 @@
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile igbt
+
+profile gto
+
+profile jr-fall
+
+profile pmsm-toshiba
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=187 us fault=0
+
+profile=jr-fall direction=power f=65.000 Hz m_cmd=0.88751 m_ref=0.88751 N=3 fc=0.000 wave=wide3 angle=6.750001 render_max=1205 us fault=0
+
+profile=jr-fall direction=power f=65.000 Hz m_cmd=0.88751 m_ref=0.88751 N=3 fc=0.000 wave=wide3 angle=6.750001 render_max=1205 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+OK: profile=pmsm-toshiba
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=65.000 Hz m_cmd=0.82806 m_ref=0.82806 N=3 fc=0.000 wave=wide3 angle=10.696334 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=65.000 Hz m_cmd=0.82806 m_ref=0.82806 N=3 fc=0.000 wave=wide3 angle=10.696334 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=pmsm-toshiba direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=750.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+OK: profile=jr-fall
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1205 us fault=0
+

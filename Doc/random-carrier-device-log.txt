@@ -1,0 +1,24 @@
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=214 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=214 us fault=0
+
+OK: profile=igbt
+
+profile=igbt direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1000.000 wave=spwm angle=0.000000 render_max=214 us fault=0
+
+profile=igbt direction=power f=20.000 Hz m_cmd=0.19999 m_ref=0.19999 N=0 fc=1000.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+profile=igbt direction=power f=20.000 Hz m_cmd=0.19999 m_ref=0.19999 N=0 fc=1000.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+profile=igbt direction=power f=40.000 Hz m_cmd=0.40001 m_ref=0.40001 N=9 fc=360.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+profile=igbt direction=power f=40.000 Hz m_cmd=0.40001 m_ref=0.40001 N=9 fc=360.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+profile=igbt direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1000.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+OK: profile=jr-fall
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+
+profile=jr-fall direction=power f=0.000 Hz m_cmd=0.00000 m_ref=0.00000 N=0 fc=1045.000 wave=spwm angle=0.000000 render_max=1217 us fault=0
+

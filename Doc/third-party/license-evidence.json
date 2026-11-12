@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-12",
+  "sdk_version": "2.3.1",
+  "sdk_commit": "079c6f39023649b154152db30f1d781e884879bc",
+  "tinyusb_commit": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+  "notices": [
+    {
+      "file": "pico-sdk-BSD-3-Clause.txt",
+      "source": "<PICO_SDK_PATH>/LICENSE.TXT",
+      "sha256": "483f865953435b66c443dee7558debe3cc3cf8fcbb6a112fd9fc6a795d53f1f6"
+    },
+    {
+      "file": "pico-printf-MIT.txt",
+      "source": "<PICO_SDK_PATH>/src/rp2_common/pico_printf/LICENSE",
+      "sha256": "3fd3a80a06465d0b4affa1d1a16e18a8d2ef42a52eb52060109ae12f1f878f72"
+    },
+    {
+      "file": "tinyusb-MIT.txt",
+      "source": "<PICO_SDK_PATH>/lib/tinyusb/LICENSE",
+      "sha256": "b171720e8a442e7a3957d83c62cd3299dbb29da3db534cc626f9dded0de2ca44"
+    },
+    {
+      "file": "arm-gnu-toolchain-14_2_Rel1-license.txt",
+      "source": "<ARM_GNU_TOOLCHAIN>/license.txt",
+      "sha256": "9b47c67a1d2421fa5724e2bfd9e2be03f399ade15273b6e38a8f2a3c9bfe31d6"
+    }
+  ],
+  "compiled_sdk_sources": [
+    {
+      "path": "src/rp2_common/pico_stdlib/stdlib.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_gpio/gpio.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2040/pico_platform/platform.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_platform_common/common.c",
+      "copyright_notices": [
+        "Copyright (c) 2025 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_platform_panic/panic.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_platform_panic/custom_panic_function.S",
+      "copyright_notices": [
+        "Copyright (c) 2026 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/hardware_claim/claim.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_sync/sync.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c",
+      "copyright_notices": [
+        "Copyright (c) 2024 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_irq/irq.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_irq/irq_handler_chain.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_sync/sem.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_sync/lock_core.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_sync/mutex.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_sync/critical_section.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_time/time.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_time/timeout_helper.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_timer/timer.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_util/datetime.c",
+      "copyright_notices": [],
+      "spdx": []
+    },
+    {
+      "path": "src/common/pico_util/fixed_bitset.c",
+      "copyright_notices": [
+        "Copyright (c) 2026 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_util/pheap.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/common/pico_util/queue.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_uart/uart.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_clocks/clocks.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_pll/pll.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_vreg/vreg.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_watchdog/watchdog.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_ticks/ticks.c",
+      "copyright_notices": [
+        "Copyright (c) 2024 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_bootrom/bootrom.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_bootrom/bootrom_lock.c",
+      "copyright_notices": [
+        "Copyright (c) 2024 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_boot_lock/boot_lock.c",
+      "copyright_notices": [
+        "Copyright (c) 2024 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_flash/flash.c",
+      "copyright_notices": [
+        "Copyright (c) 2023 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_xosc/xosc.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_divider/divider.S",
+      "copyright_notices": [],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/pico_runtime/runtime.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_runtime_init/runtime_init.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_runtime_init/runtime_init_clocks.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c",
+      "copyright_notices": [],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/hardware_rtc/rtc.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_divider/divider_hardware.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_double/double_aeabi_rp2040.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_double/double_init_rom_rp2040.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_double/double_math.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_float/float_aeabi_rp2040.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_float/float_init_rom_rp2040.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_float/float_math.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_malloc/malloc.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_atomic/atomic.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_cxx_options/new_delete.cpp",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_standard_binary_info/standard_binary_info.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_printf/printf.c",
+      "copyright_notices": [],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/pico_crt0/crt0.S",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_clib_interface/newlib_interface.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_clib_interface/cxa_guard.c",
+      "copyright_notices": [
+        "Copyright (c) 2026 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_stdio/stdio.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_stdio_usb/stdio_usb.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd.",
+        "Copyright (c) 2019 Damien P. George"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/pico_unique_id/unique_id.c",
+      "copyright_notices": [
+        "Copyright (c) 2021 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_flash/flash.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_xip_cache/xip_cache.c",
+      "copyright_notices": [],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/pico_usb_reset/usb_reset.c",
+      "copyright_notices": [
+        "Copyright (c) 2021 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd.",
+        "Copyright (c) 2021 Ha Thach (tinyusb.org) for Double Buffered"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/device/usbd.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/device/usbd_control.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/audio/audio_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Reinhard Panhuber, Jerzy Kasenberg",
+        "Copyright (c) 2023 HiFiPhile"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/cdc/cdc_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/dfu/dfu_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2021 XMOS LIMITED"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/dfu/dfu_rt_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Sylvain Munaut <tnt@246tNt.com>"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/hid/hid_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/midi/midi_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/msc/msc_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/net/ecm_rndis_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Peter Lawrence",
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/net/ncm_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)",
+        "Copyright (c) 2024 Hardy Griech",
+        "Copyright (c) 2020 Jacob Berg Potter",
+        "Copyright (c) 2020 Peter Lawrence"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/usbtmc/usbtmc_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Nathan Conrad"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/vendor/vendor_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/class/video/video_device.c",
+      "copyright_notices": [
+        "Copyright (c) 2021 Koji KITAYAMA",
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/tusb.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "lib/tinyusb/src/common/tusb_fifo.c",
+      "copyright_notices": [
+        "Copyright (c) 2019 Ha Thach (tinyusb.org)",
+        "Copyright (c) 2020 Reinhard Panhuber - rework to unmasked pointers"
+      ],
+      "spdx": []
+    },
+    {
+      "path": "src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/pico_thread_local/thread_local.c",
+      "copyright_notices": [
+        "Copyright (c) 2026 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_pio/pio.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2_common/hardware_dma/dma.c",
+      "copyright_notices": [
+        "Copyright (c) 2020 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    },
+    {
+      "path": "src/rp2040/boot_stage2/compile_time_choice.S",
+      "copyright_notices": [
+        "Copyright (c) 2019-2021 Raspberry Pi (Trading) Ltd."
+      ],
+      "spdx": [
+        "BSD-3-Clause"
+      ]
+    }
+  ],
+  "notice_file_sha256": {
+    "naoto64-MIT.txt": "5f28e23f68f9ae113bd1053a1118d722a1e4cb690ac0530931d6adeca5b34ae4",
+    "pico-sdk-BSD-3-Clause.txt": "483f865953435b66c443dee7558debe3cc3cf8fcbb6a112fd9fc6a795d53f1f6",
+    "pico-printf-MIT.txt": "3fd3a80a06465d0b4affa1d1a16e18a8d2ef42a52eb52060109ae12f1f878f72",
+    "tinyusb-MIT.txt": "b171720e8a442e7a3957d83c62cd3299dbb29da3db534cc626f9dded0de2ca44",
+    "arm-gnu-toolchain-14_2_Rel1-license.txt": "9b47c67a1d2421fa5724e2bfd9e2be03f399ade15273b6e38a8f2a3c9bfe31d6",
+    "compiled-sdk-source-notices.txt": "48afdb2db851d3e07524b749ca87e356465542cd04dcf2d247a05b9248affbb5",
+    "gcc-runtime-exception-3.1.txt": "e9e847889787f1c0a2f735a0d7571163e4ca2ea64cf0a1a519d26c2afdac96bc"
+  }
+}

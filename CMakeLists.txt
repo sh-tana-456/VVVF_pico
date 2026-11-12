@@ -36,7 +36,18 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 # add_executable(vvvf-pico main.c )
-add_executable(vvvf-pico vvvf-pico.c )
+add_executable(vvvf-pico
+    src/main.c
+    src/control/programmed.c
+    src/profiles/presets.c
+    src/control/profiles.c
+    src/control/voltage.c
+    src/control/control.c
+    src/control/modulator.c
+    src/output/pio_output.c
+)
+pico_generate_pio_header(vvvf-pico ${CMAKE_CURRENT_LIST_DIR}/src/output/three_phase.pio)
+target_compile_options(vvvf-pico PRIVATE -Wall -Wextra -Werror -O2)
 
 pico_set_program_name(vvvf-pico "vvvf-pico")
 pico_set_program_version(vvvf-pico "0.1")
@@ -49,15 +60,16 @@ pico_enable_stdio_usb(vvvf-pico 1)
 target_link_libraries(vvvf-pico
         pico_stdlib
         pico_time
-        hardware_pwm
+        hardware_pio
+        hardware_dma
+        hardware_sync
         hardware_clocks
-        hardware_adc
-        pico_rand
+        m
         )
 
 # Add the standard include files to the build
 target_include_directories(vvvf-pico PRIVATE
-        ${CMAKE_CURRENT_LIST_DIR}
+        ${CMAKE_CURRENT_LIST_DIR}/include
 )
 
 pico_add_extra_outputs(vvvf-pico)
